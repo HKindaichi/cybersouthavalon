@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avalon Residence | Premium Double-Storey Homes</title>
+    <meta name="description" content="Modern double-storey homes with 4-5 bedrooms. Gated community with lakefront views near Cyberjaya and Putrajaya.">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Outfit for headings, Inter for body -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Sticky Navigation -->
+    <header class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">AVALON <br><span>RESIDENCE</span></a>
+            <nav class="nav-links">
+                <a href="#about">About</a>
+                <a href="#facilities">Facilities</a>
+                <a href="#gallery">Gallery</a>
+                <a href="#layouts">Layouts</a>
+                <div style="display: flex; gap: 0.8rem; align-items: center;">
+                    <a href="#register" class="btn btn-outline">Register Interest</a>
+                    <a href="https://cybersouthavalon.wasap.my" target="_blank" rel="noopener noreferrer" class="btn whatsapp-icon-btn" title="Contact via WhatsApp">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 16 16"><path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232"/></svg>
+                    </a>
+                </div>
+            </nav>
+            <div class="mobile-menu-toggle" id="mobile-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Nav -->
+    <div class="mobile-nav" id="mobile-nav">
+        <nav class="mobile-nav-links">
+            <a href="#about">About</a>
+            <a href="#facilities">Facilities</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#layouts">Layouts</a>
+            <div style="display: flex; gap: 0.8rem; align-items: center; margin-top: 1rem;">
+                <a href="#register" class="btn btn-solid" style="flex: 1;">Register Interest</a>
+                <a href="https://cybersouthavalon.wasap.my" target="_blank" rel="noopener noreferrer" class="btn whatsapp-icon-btn" title="Contact via WhatsApp">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 16 16"><path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232"/></svg>
+                </a>
+            </div>
+        </nav>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-bg" id="hero-slider">
+            <img src="image/Avalon_ViewFromLake.jpg" class="slide active" alt="Avalon Lakefront View">
+            <img src="image/Avalon_AerialView-scaled.jpg" class="slide" alt="Avalon Aerial View">
+            <img src="image/Avalon_Roundabout-scaled.jpg" class="slide" alt="Avalon Roundabout">
+            <div class="hero-overlay"></div>
+        </div>
+        <div class="container hero-content fade-in-up">
+            <img src="image/cybersouth-project-avalon-logo.webp" alt="Avalon" style="max-width: 250px; margin-bottom: 2rem; display: block;">
+            <h1>A Sanctuary of <br>Lakefront Living</h1>
+            <p>Modern double-storey homes with 4-5 bedrooms. Built-up from 2,004 sq.ft in a gated and guarded community near Cyberjaya.</p>
+            <div class="hero-actions">
+                <a href="https://cybersouthavalon.wasap.my" target="_blank" rel="noopener noreferrer" class="btn btn-solid-gold" style="display: inline-flex; align-items: center; gap: 8px;">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 16 16"><path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232"/></svg>
+                    Chat Now
+                </a>
+                <a href="#about" class="btn btn-outline-white">Discover More</a>
+                <a href="image/Avanlon-eBrochure-Phase-1-2.pdf" download class="btn btn-outline-white" style="display: inline-flex; align-items: center; gap: 8px;">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" viewBox="0 0 16 16">
+                      <path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z"/>
+                      <path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z"/>
+                    </svg>
+                    Brochure
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Concept / About -->
+    <section class="section about" id="about">
+        <div class="container about-container">
+            <div class="about-text animate-on-scroll">
+                <h2>The Heart of Cybersouth</h2>
+                <p>Avalon Residence is meticulously designed to offer a balanced lifestyle. Surrounded by lush greenery and a serene lake, it provides a quiet escape from the bustling city while maintaining prime connectivity to Kuala Lumpur, Putrajaya, and Cyberjaya.</p>
+                <ul class="feature-list">
+                    <li>✓ 24/7 Gated & Guarded</li>
+                    <li>✓ EV Charging Ready</li>
+                    <li>✓ Smart Home Infrastructure</li>
+                    <li>✓ Next to 25-Acre Central Park</li>
+                </ul>
+            </div>
+            <div class="about-image animate-on-scroll">
+                <img src="image/Avalon_Facade_A-scaled.jpg" alt="Avalon Facade">
+            </div>
+        </div>
+    </section>
+
+    <!-- Facilities -->
+    <section class="section facilities bg-light" id="facilities">
+        <div class="container">
+            <div class="section-header center animate-on-scroll">
+                <h2>Exclusive Facilities</h2>
+                <p>Everything you need for a modern, active lifestyle within easy reach.</p>
+            </div>
+            <div class="grid grid-3 facilities-grid">
+                <!-- Facility 1 -->
+                <div class="card facility-card animate-on-scroll">
+                    <div class="card-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="none" viewBox="0 0 24 24" stroke="#8CA18B" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M4 12l8-8 8 8"></path>
+                            <path d="M6 10v6h12v-6"></path>
+                            <path d="M2 19s2-2 4 0 3 2 6 0 4-2 6 0 2 2 4 0"></path>
+                            <path d="M2 22s2-2 4 0 3 2 6 0 4-2 6 0 2 2 4 0"></path>
+                        </svg>
+                    </div>
+                    <h3>Limited Lakefront Units</h3>
+                    <p>Exclusive lakefront homes offering unparalleled views and a tranquil environment.</p>
+                </div>
+                <!-- Facility 2 -->
+                <div class="card facility-card animate-on-scroll">
+                    <div class="card-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="none" viewBox="0 0 24 24" stroke="#8CA18B" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round">
+                            <!-- Parent -->
+                            <circle cx="9" cy="7" r="3"></circle>
+                            <path d="M5 15c0-2.2 1.8-4 4-4s4 1.8 4 4v7H5v-7z"></path>
+                            <!-- Elder/Child -->
+                            <circle cx="16" cy="10" r="2.5"></circle>
+                            <path d="M13.5 17c0-1.6 1.4-3 3-3s3 1.4 3 3v5h-6v-5z"></path>
+                            <path d="M2 22h20"></path>
+                        </svg>
+                    </div>
+                    <h3>Elderly-Friendly Layout</h3>
+                    <p>Thoughtfully designed spaces on the ground floor to accommodate multi-generational living comfortably.</p>
+                </div>
+                <!-- Facility 3 -->
+                <div class="card facility-card animate-on-scroll">
+                    <div class="card-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="none" viewBox="0 0 24 24" stroke="#8CA18B" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round">
+                            <!-- Tree 1 -->
+                            <path d="M12 21v-6"></path>
+                            <path d="M12 15C8 15 6 12 6 9s2-6 6-6 6 3 6 6-2 6-6 6z"></path>
+                            <!-- Tree 2 -->
+                            <path d="M19 21v-4"></path>
+                            <path d="M19 17c-2 0-3-1.5-3-3s1-3 3-3 3 1.5 3 3-1 3-3 3z"></path>
+                            <!-- Tree 3 -->
+                            <path d="M5 21v-3"></path>
+                            <path d="M5 18c-1.5 0-2-1-2-2s.5-2 2-2 2 1 2 2-.5 2-2 2z"></path>
+                            <path d="M2 21h20"></path>
+                        </svg>
+                    </div>
+                    <h3>Direct Park Access</h3>
+                    <p>Step right out into a sprawling central park with a 2.9km perimeter jogging track.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery -->
+    <section class="section gallery" id="gallery">
+        <div class="container">
+            <div class="section-header animate-on-scroll">
+                <h2>Project Gallery</h2>
+            </div>
+            <div class="gallery-grid animate-on-scroll">
+                <div class="gallery-item item-large">
+                    <img src="image/Avalon_AerialView-scaled.jpg" alt="Aerial View">
+                </div>
+                <div class="gallery-item">
+                    <img src="image/Avalon_Laman_Walkway-scaled.jpg" alt="Walkway">
+                </div>
+                <div class="gallery-item">
+                    <img src="image/Avalon_Laman_Pangkin-scaled.jpg" alt="Pangkin">
+                </div>
+                <div class="gallery-item">
+                    <img src="image/Avalon_TypeB_Corner-scaled.jpg" alt="Type B Corner">
+                </div>
+                <div class="gallery-item">
+                    <img src="image/Avalon_Guardhouse-scaled.jpg" alt="Guardhouse">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Actual Unit Photos -->
+    <section class="section actual-units" id="actual-units" style="background-color: #8CA18B; color: white;">
+        <div class="container">
+            <div class="section-header center animate-on-scroll">
+                <h2 style="color: white; margin-bottom: 1.5rem;">Experience The Reality</h2>
+                <div style="margin-bottom: 3rem;">
+                    <a href="https://cybersouthavalon.wasap.my" target="_blank" rel="noopener noreferrer" class="btn btn-primary" style="background-color: white; color: #8CA18B; border-color: white; box-shadow: 0 4px 15px rgba(0,0,0,0.1);">Visit Our Showroom</a>
+                </div>
+                
+                <div class="unit-tabs-wrapper">
+                    <div class="unit-tabs-label">Actual Unit Photos</div>
+                    <div class="unit-tabs">
+                        <button class="unit-tab active" data-target="slider-type-a">Type A</button>
+                        <button class="unit-tab" data-target="slider-type-c">Type C</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="unit-slider-container animate-on-scroll">
+                <!-- Type A Slider -->
+                <div class="unit-slider active" id="slider-type-a">
+                    <div class="slider-wrapper">
+                        <img src="image/Avalon-Type-A-14.jpg" alt="Type A Unit Photo">
+                        <img src="image/Avalon-Type-A-34.jpg" alt="Type A Unit Photo">
+                        <img src="image/Avalon-Type-A-61.jpg" alt="Type A Unit Photo">
+                        <img src="image/Avalon-Type-A-77.jpg" alt="Type A Unit Photo">
+                    </div>
+                    <div class="slider-controls">
+                        <button class="prev-slide">&#10094;</button>
+                        <button class="next-slide">&#10095;</button>
+                    </div>
+                </div>
+
+                <!-- Type C Slider -->
+                <div class="unit-slider" id="slider-type-c">
+                    <div class="slider-wrapper">
+                        <img src="image/Avalon-Type-C-42.jpg" alt="Type C Unit Photo">
+                        <img src="image/Avalon-Type-C-46.jpg" alt="Type C Unit Photo">
+                        <img src="image/Avalon-Type-C-85.jpg" alt="Type C Unit Photo">
+                        <img src="image/Avalon-Type-C-122.jpg" alt="Type C Unit Photo">
+                    </div>
+                    <div class="slider-controls">
+                        <button class="prev-slide">&#10094;</button>
+                        <button class="next-slide">&#10095;</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Layouts -->
+    <section class="section layouts bg-light" id="layouts">
+        <div class="container">
+            <div class="section-header center animate-on-scroll">
+                <h2>Spacious Layouts for Every Lifestyle</h2>
+                <p>Choose from two distinct configurations built to accommodate growing families.</p>
+            </div>
+            <div class="grid grid-2">
+                <!-- Layout Type A -->
+                <div class="card layout-card animate-on-scroll">
+                    <div class="layout-img">
+                        <img src="image/avalon-fpA@4x.png" alt="Type A Floorplan" style="max-height: 100%; width: auto;">
+                    </div>
+                    <div class="layout-info">
+                        <h3>Type A</h3>
+                        <div class="specs">
+                            <span>🛏️ 4 Bedrooms</span>
+                            <span>🛁 3 Bathrooms</span>
+                        </div>
+                        <p>Perfectly optimized space for medium-sized families with an open-plan living and dining area.</p>
+                    </div>
+                </div>
+                <!-- Layout Type C -->
+                <div class="card layout-card animate-on-scroll">
+                    <div class="layout-img">
+                        <img src="image/avalon-fbC@4x.png" alt="Type C Floorplan" style="max-height: 100%; width: auto;">
+                    </div>
+                    <div class="layout-info">
+                        <h3>Type C</h3>
+                        <div class="specs">
+                            <span>🛏️ 5 Bedrooms</span>
+                            <span>🛁 4 Bathrooms</span>
+                        </div>
+                        <p>Expansive layout featuring an extra family hall upstairs and a larger garden space for ultimate comfort.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Register Contact -->
+    <section class="section contact" id="register">
+        <div class="container contact-container">
+            <div class="contact-info animate-on-scroll">
+                <h2>Register Your Interest</h2>
+                <p>Don't miss the opportunity to own a piece of this exclusive sanctuary. Leave your details below and our sales representative will get in touch with you shortly.</p>
+                <div class="contact-map" style="margin-top: 2rem;">
+                    <img src="image/cybersouth-location-map-new-july2025-1.webp" alt="Avalon Cybersouth Location Map" style="border-radius: 8px; box-shadow: var(--shadow-md); width: 100%;">
+                </div>
+            </div>
+            <div class="contact-form-wrapper animate-on-scroll">
+                <form class="contact-form" id="register-form">
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" name="name" placeholder="John Doe" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" name="phone" placeholder="+60123456789" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" placeholder="john@example.com" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="interest">Property Interest</label>
+                        <select id="interest" name="interest" required>
+                            <option value="">Select Layout</option>
+                            <option value="Type A">Type A (Intermediate)</option>
+                            <option value="Type C">Type C (Corner Lot)</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="btn btn-solid-gold w-100">Submit Registration</button>
+                    <p class="form-disclaimer">By submitting, you agree to our Terms of Service and Privacy Policy.</p>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-brand">
+                    <a href="#" class="logo">AVALON <br><span>RESIDENCE</span></a>
+                    <p>A premier development brought to you by TopTier Developer Group.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#about">About Project</a></li>
+                        <li><a href="#facilities">Facilities</a></li>
+                        <li><a href="#layouts">Floor Plans</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Avalon Residence. All rights reserved.</p>
+                <p>Disclaimer: All renderings are artist's impressions only.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/main.js"></script>
+</body>
+</html>
