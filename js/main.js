@@ -219,4 +219,19 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 
+    // 8. Floor Plan Tabs Logic
+    const floorTabs = document.querySelectorAll('.floor-tab');
+    const floorContents = document.querySelectorAll('.floorplan-content');
+
+    floorTabs.forEach(tab => {
+        tab.addEventListener('click', () => {
+            floorTabs.forEach(t => t.classList.remove('active'));
+            floorContents.forEach(c => c.classList.remove('active'));
+
+            tab.classList.add('active');
+            const targetId = tab.getAttribute('data-target');
+            document.getElementById(targetId).classList.add('active');
+        });
+    });
+
 });
